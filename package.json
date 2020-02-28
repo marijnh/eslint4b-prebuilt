@@ -1,7 +1,7 @@
 {
   "name": "eslint4b-prebuilt",
   "description": "Pre-bundled version of ESLint and its core rules that can be loaded in the browser",
-  "version": "6.7.1",
+  "version": "6.7.2",
   "license": "MIT",
   "main": "dist/eslint4b.js",
   "module": "dist/eslint4b.es.js",
