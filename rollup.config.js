@@ -1,10 +1,13 @@
 module.exports = {
   input: "./main.js",
-  output: {
+  output: [{
     file: "./dist/eslint4b.js",
     format: "umd",
     name: "ESLint"
-  },
+  }, {
+    file: "./dist/eslint4b.es.js",
+    format: "es"
+  }],
   plugins: [
     require('rollup-plugin-node-builtins')(),
     require("rollup-plugin-commonjs")(),

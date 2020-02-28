@@ -4,6 +4,7 @@
   "version": "6.7.1",
   "license": "MIT",
   "main": "dist/eslint4b.js",
+  "module": "dist/eslint4b.es.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marijnh/eslint4b-prebuilt.git"
